@@ -98,8 +98,8 @@ def inference_LLM_patch(prompt_path):
             torch.cuda.empty_cache()
     
     #### save output ####
-    test_basic_info["rewriter_inferer"] = response_list[:instance_num]
-    test_basic_info["rewriter_extractor"] = response_list[instance_num:]
+    test_basic_info["rewriter_extractor"] = response_list[:instance_num]
+    test_basic_info["rewriter_inferer"] = response_list[instance_num:]
 
     test_basic_info.to_json("test_rewriter_output.json", index=False)
 
