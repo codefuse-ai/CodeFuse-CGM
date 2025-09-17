@@ -184,4 +184,4 @@ if __name__ == "__main__":
         
         # save
         with open("subgraph_nodes.json", 'w', encoding='utf-8') as file:
-            json.dump(anchor_node_dict, file)
+            json.dump(subgraph_id_dict, file)
