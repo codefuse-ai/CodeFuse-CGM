@@ -17,6 +17,8 @@
 
 ## News
 
+🔥🔥🔥 [2025/09/19] Our paper [Code Graph Model (CGM): A Graph-Integrated Large Language Model for Repository-Level Software Engineering Tasks](https://arxiv.org/abs/2505.16901) has been accepted to NeurIPS 2025!
+
 ![SWE-Bench-Lite](./assets/swe-bench-modified.png)
 
 🔥🔥🔥 [2025/01/15] We are pleased to announce the updated version of the CGM-72B-V1.2. The model further achieves a remarkable 44.00% resolve rate on the SWE-Bench-Lite leaderboard.
